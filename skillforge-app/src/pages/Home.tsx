@@ -17,9 +17,9 @@ const Home = () => {
     <div className={`min-h-screen bg-gradient-to-b from-black via-blue-900 to-white transition-colors duration-500 ${isScrolled ? "text-gray-900" : "text-gray-700"} flex flex-col items-center justify-center px-4 overflow-hidden`}>
       {/* Navigation Bar */}
       <nav className="w-full max-w-4xl flex justify-center space-x-6 py-4">
-        <Link to="/assessments" className="text-lg font-semibold hover:text-blue-300 transition duration-300">Assessments</Link>
-        <Link to="/challenges" className="text-lg font-semibold hover:text-blue-300 transition duration-300">Challenges</Link>
-        <Link to="/leaderboard" className="text-lg font-semibold hover:text-blue-300 transition duration-300">Leaderboard</Link>
+        <Link to="/Assessments" className="text-lg font-semibold text-gray-400 hover:text-blue-300 transition duration-300">Assessments</Link>
+        <Link to="/Challenges" className="text-lg font-semibold text-gray-400 hover:text-blue-300 transition duration-300">Challenges</Link>
+        <Link to="/Leaderboard" className="text-lg font-semibold text-gray-400 hover:text-blue-300 transition duration-300">Leaderboard</Link>
       </nav>
       
       {/* Hero Section */}
@@ -58,7 +58,7 @@ const Home = () => {
       </section>
       
       {/* Footer */}
-      <footer className="py-6 text-center bg-blue-200 w-full max-w-3xl rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <footer className="py-6 text-center mt-4 mb-4 bg-blue-200 w-full max-w-3xl rounded-xl shadow-lg hover:scale-105 transition-transform">
         <p>&copy; 2025 SkillForge. All rights reserved.</p>
       </footer>
     </div>
